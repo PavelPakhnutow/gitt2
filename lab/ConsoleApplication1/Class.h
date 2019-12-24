@@ -9,8 +9,13 @@ class func
 private:
 	float res, fir, sec;
 public:
+	void set();
+	void getf(); 
+	void gets();
 	float sum();
 	float sub();
+	float mul();
+	float div();
 };
 
 #endif // _HEADER_H_
